@@ -2,7 +2,7 @@ let util = require('util')
 let path = require('path')
 let { spawn } = require('child_process')
 
-// Font By MFarelS:V
+// Font By ZenKun:V
 let fontPath = 'src/font/Zahraaa.ttf'
 let handler  = async (m, { conn, args }) => {
   let inputPath ='src/kertas/magernulis1.jpg'
@@ -70,5 +70,5 @@ handler.fail = null
 
 module.exports = handler
 
-// BY MFARELS NJEENK
-// https://GitHub.com/MFarelS/
+// BY ZenKun
+// https://GitHub.com/ZenKunBot/
